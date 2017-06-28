@@ -2916,7 +2916,7 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 9em 0;
+		padding: 0em 0 2em 0;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-position: bottom;
@@ -2928,7 +2928,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: rgba(75, 75, 75, 0.85);
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2937,7 +2937,6 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
 			padding-top: 8em;
@@ -2948,7 +2947,7 @@
 			font-weight: 400;
 			color: #fff;
 			line-height: 1em;
-			margin: 0 0 1em 0;
+			margin: 0 0 2em 0;
 			padding: 0;
 		}
 
